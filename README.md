@@ -1,9 +1,9 @@
-PerfDog API Automation – Playwright
+#PerfDog API Automation – Playwright
 
 This project contains API automated tests for the PerfDog Pet Store, using Playwright with JavaScript, validating core functionalities of the Swagger Petstore API.
 
 
-Tech Stack
+#Tech Stack
 
 Node.js
 
@@ -13,16 +13,16 @@ JavaScript
 
 Swagger Petstore API
 
-API Under Test
+#API Under Test
 
 Swagger Petstore (public demo API):
 👉 https://petstore.swagger.io
 
-Base URL used:
+#Base URL used:
 
 https://petstore.swagger.io/v2
 
-Scenarios Covered
+#Scenarios Covered
 🔹 Part 1 – Pet Management
 
 Create 10 pets:
@@ -52,7 +52,7 @@ Uses Playwright APIRequestContext (API-only testing)
 Unique IDs generated to avoid conflicts in the shared public environment
 
 
-How to Run the Tests
+#How to Run the Tests
 🔹 Prerequisites
 
 Node.js (LTS version recommended)
