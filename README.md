@@ -1,6 +1,6 @@
-# PerfDog API Automation – Playwright
+# PerfDog and Demoblaze Automation – Playwright
 
-This project contains API automated tests for the PerfDog Pet Store, using Playwright with JavaScript, validating core functionalities of the Swagger Petstore API.
+This project contains API automated tests for the PerfDog Pet Store and UI automation for Demoblaze website.
 
 
 ## Tech Stack
@@ -13,7 +13,7 @@ JavaScript
 
 Swagger Petstore API
 
-## API Under Test
+## PerfDog
 
 Swagger Petstore (public demo API):
 👉 https://petstore.swagger.io
@@ -51,6 +51,37 @@ Uses Playwright APIRequestContext (API-only testing)
 
 Unique IDs generated to avoid conflicts in the shared public environment
 
+## Demoblaze
+https://www.demoblaze.com/
+
+## Scenarios Covered
+🔹 Part 1 – Product Data Extraction
+
+Access the first two pages of products
+
+Extract for each product:
+
+Product name
+
+Product price
+
+Product link
+
+🔹 Part 2 – Purchase Flow
+
+Select a product from the catalog
+
+Add product to cart
+
+Complete the checkout process
+
+Validate purchase confirmation message
+
+⭐ Extra Scenarios (Bonus)
+
+Remove a product from the cart
+
+Export all collected data to a text file (.txt)
 
 ## How to Run the Tests
 🔹 Prerequisites
