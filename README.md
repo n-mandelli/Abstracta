@@ -1,4 +1,4 @@
-#PerfDog API Automation – Playwright
+##PerfDog API Automation – Playwright
 
 This project contains API automated tests for the PerfDog Pet Store, using Playwright with JavaScript, validating core functionalities of the Swagger Petstore API.
 
